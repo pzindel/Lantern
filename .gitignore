@@ -1,0 +1,9 @@
+*.aux
+*.jpeg
+*.jpg
+*.json
+*.log
+*.npy
+*.png
+*.pyc
+*.zip

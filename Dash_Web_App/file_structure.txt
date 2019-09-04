@@ -1,0 +1,32 @@
+- apps/
+	|-- __init__.py
+	|-- aggregated_app.py
+	|-- data_app.py
+	|-- exercise_app.py
+	|-- floors_app.py
+	|-- heart_app.py
+	|-- sleep_app.py
+	|-- step_app.py
+	|-- summary_app.py
+- cleaned_data/
+	|-- daily_aggregated.csv
+	|-- exercise_cleaned.csv
+	|-- floors_climbed_cleaned.csv
+	|-- heart_rate_cleaned.csv
+	|-- sleep_cleaned.csv
+	|-- step_count_cleaned.csv
+	|-- summary_cleaned.csv
+- database/
+	|-- usernames.db
+- original_data/
+	|-- exercise.csv
+	|-- floors_climbed.csv
+	|-- heart_rate.csv
+	|-- sleep.csv
+	|-- step_count.csv
+	|-- summary.csv
+- app.py
+- data_cleaning_script.py
+- file_directory_structure.txt
+- index.py
+- launching_on_GCP_vm.txt

@@ -1,0 +1,6 @@
+To launch the app on a Google Cloud Platform virtual maching, 
+I edited the app run command in __main__ to include the internal ip address of the 
+vm and the open port of the vm. (i.e. app.run_server(debug=True, port=5000, host='10.162.0.2'))
+Then I copied the files to the vm and using tmux I created a background process and ran the app through python
+(via $python index.py).
+Then dashboard of the app could then be accessed through the external ip address of the vm.
